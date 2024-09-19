@@ -1,5 +1,3 @@
-
-
 ---
 
 # Ola Driver Churn Prediction
@@ -40,40 +38,45 @@ The objective is to:
 ### 1. Exploratory Data Analysis (EDA)
 
 - **Data Loading and Initial Checks**:
-   - Loaded the dataset and analyzed its shape, data types, and summary statistics.
-   - Identified missing values and handled them during data preprocessing.
+
+  - Loaded the dataset and analyzed its shape, data types, and summary statistics.
+  - Identified missing values and handled them during data preprocessing.
 
 - **Univariate Analysis**:
-   - Visualized the distributions of continuous variables like `Age`, `Income`, and `Total Business Value`.
-   - Used bar plots to analyze categorical variables like `Gender`, `City`, `Education_Level`, and `Quarterly Rating`.
+
+  - Visualized the distributions of continuous variables like `Age`, `Income`, and `Total Business Value`.
+  - Used bar plots to analyze categorical variables like `Gender`, `City`, `Education_Level`, and `Quarterly Rating`.
 
 - **Bivariate Analysis**:
-   - Created scatter plots, box plots, and heatmaps to observe relationships between variables.
-   - Key insights:
-     - A high correlation (0.47) exists between `Total Business Value` and `Quarterly Rating`.
-     - Drivers in their 30s and early 40s tend to earn the highest income.
-     - Ratings are positively correlated with business value.
+  - Created scatter plots, box plots, and heatmaps to observe relationships between variables.
+  - Key insights:
+    - A high correlation (0.47) exists between `Total Business Value` and `Quarterly Rating`.
+    - Drivers in their 30s and early 40s tend to earn the highest income.
+    - Ratings are positively correlated with business value.
 
 ### 2. Data Preprocessing
 
 - **KNN Imputation**:
-   - Missing values in `Age` and `Gender` were imputed using KNN Imputation.
-   - Categorical columns (`Gender`, `City`, etc.) were encoded using `LabelEncoder` for machine learning.
+
+  - Missing values in `Age` and `Gender` were imputed using KNN Imputation.
+  - Categorical columns (`Gender`, `City`, etc.) were encoded using `LabelEncoder` for machine learning.
 
 - **Feature Engineering**:
-   - Created a binary feature `Left_Company`, indicating whether a driver has left the company.
-   - Planned creation of additional features like `Quarterly Rating Increase` and `Monthly Income Increase`.
+  - Created a binary feature `Left_Company`, indicating whether a driver has left the company.
+  - Planned creation of additional features like `Quarterly Rating Increase` and `Monthly Income Increase`.
 
 ### 3. Next Steps
 
-- **Class Imbalance Treatment**: 
-   - Address class imbalance using techniques like oversampling, undersampling, or SMOTE.
+- **Class Imbalance Treatment**:
 
-- **Standardization & Encoding**: 
-   - Standardize numerical data and perform one-hot encoding for categorical variables.
+  - Address class imbalance using techniques like oversampling, undersampling, or SMOTE.
 
-- **Modeling**: 
-   - Build ensemble models for prediction using algorithms like Random Forest and XGBoost.
+- **Standardization & Encoding**:
+
+  - Standardize numerical data and perform one-hot encoding for categorical variables.
+
+- **Modeling**:
+  - Build ensemble models for prediction using algorithms like Random Forest and XGBoost.
 
 ---
 
@@ -101,11 +104,13 @@ The dataset contains driver information from 2019 and 2020, including the follow
 To run this project locally, follow these steps:
 
 1. **Clone the Repository**:
+
    ```bash
    git clone https://github.com/your_username/ola-driver-churn.git
    ```
 
 2. **Install Dependencies**:
+
    ```bash
    pip install -r requirements.txt
    ```
@@ -115,14 +120,12 @@ To run this project locally, follow these steps:
 
 ---
 
-
-
 ## Contact
 
 For any inquiries or further discussion about this project, feel free to reach out:
 
 - **Name**: Srinivas Koruprolu
-- **Email**: your_email@example.com
-- **LinkedIn**: [Srinivas LinkedIn](https://www.linkedin.com/in/your_linkedin)
+- **Email**: srinivasg3112@gmail.com
+- **LinkedIn**: [Srinivas LinkedIn](https://www.linkedin.com/in/srinivas-koruprolu)
 
 ---
