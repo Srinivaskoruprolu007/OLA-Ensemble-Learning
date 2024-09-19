@@ -77,7 +77,7 @@ To run this project locally:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your_username/ola-driver-churn.git
+   (https://github.com/Srinivaskoruprolu007/OLA-Ensemble-Learning.git)
    ```
 
 2. **Install Dependencies**:
